@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     //  Untuk If Else
     var checkButton = document.getElementById("checkButtonIfElse");
     checkButton.addEventListener("click", IfElse);
+    
+    //  Untuk Nested If 
+    var checkButton = document.getElementById("checkButtonNestedIf");
+    checkButton.addEventListener("click", NestedIf);
 
     // untuk Switch Case
     var checkButton = document.getElementById("checkButtonSwitchCase");
@@ -16,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // If Else 
-// dan juga menggunaakn function
+// dan juga menggunakan function
 function IfElse() {
     // Mengambil nilai masukan dari input
     var input = document.getElementById("inputNumberIfElse").value;
@@ -27,6 +31,28 @@ function IfElse() {
         document.getElementById("resultIfElse").textContent = "Angka yang Anda masukkan adalah negatif.";
     } else {
         document.getElementById("resultIfElse").textContent = "Angka yang Anda masukkan adalah nol.";
+    }
+}
+
+// Nested If
+function NestedIf() {
+    // Mengambil nilai masukan dari input
+    var inputAbsensi = document.getElementById("inputAbsensi").value;
+    var inputNilai = document.getElementById("inputNilai").value;
+    // Melakukan nested if
+    // jika nilai absensi ebih dari sama dengan 75
+    if (inputAbsensi >= 75) {
+        // dan nilai mapel nya lebih dari sama dengan 80 
+       if (inputNilai >= 80) {
+        document.getElementById("resultNestedIf").textContent = "Selamat anda lulus dengan nilai tinggi pada Mata Pelajaran ini!";
+       }else if (inputNilai >= 70) {
+        document.getElementById("resultNestedIf").textContent = "Anda lulus dengan nilai cukup pada Mata Pelajaran ini!";
+       }else{
+        document.getElementById("resultNestedIf").textContent = "Maaf anda belum lulus Mata Pelajaran ini!";
+       }
+    // jika nilai absensi nya kurang dari 75
+    }else{
+        document.getElementById("resultNestedIf").textContent = "Anda tidak lulus, karena nilai absensi kurang!";
     }
 }
 
