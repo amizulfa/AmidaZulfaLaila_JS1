@@ -121,7 +121,7 @@ function whileStatement(awal, akhir) {
     whileStatement(1, 50);
 
 // Do While Statement
-// Menampilkan bilangan dari rentang angka, dan menampilkan bahwa bilangan tersebut genap atau ganjil
+// Menampilkan bilangan dan menampilkan bahwa bilangan tersebut genap atau ganjil
 function doWhileStatement() {
     var pesan = "";
     let i = 1;
@@ -172,7 +172,7 @@ function tampilScore(barang = [], jumlah = 0) {
         afterDiskon = "-"
     }
     // Menampilkan pesan dengan diskon
-    var pesan = `${isiBelanjaan} Anda mendapatkan diskon ${totalDiskon}.<br>Harga sebelum diskon: Rp. ${jumlah} <br>Total harga setelah diskon: Rp. ${afterDiskon}`;
+    var pesan = `${isiBelanjaan} Anda mendapatkan diskon ${totalDiskon}.<br>Total Harga: Rp. ${jumlah} <br>Total harga setelah diskon: Rp. ${afterDiskon}`;
     // Menampilkan pesan ke dalam elemen HTML dengan id "resultFunction"
     document.getElementById("resultFunction").innerHTML = pesan;
 }
