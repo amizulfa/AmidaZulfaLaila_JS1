@@ -8,6 +8,9 @@
 Memasukan angka dan akan mengeluarkan apakah angka tersebut positif, negatif, dan atau angka 0
 <img width="311" alt="image" src="https://github.com/amizulfa/AmidaZulfaLaila_JS1/assets/100895165/873afbd9-cae3-45b1-9aa4-f1485723d92a">
 
+## Nested If
+Menentukan kelulusan suatu mata pelajaran dengan memasukan nilai absensi dan nilai mata pelajaran.
+
 ## Switch Case
 Kalkulator Sederhana menggunakan Switch Case
 
