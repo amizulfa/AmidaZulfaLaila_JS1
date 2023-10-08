@@ -10,6 +10,7 @@ Memasukan angka dan akan mengeluarkan apakah angka tersebut positif, negatif, da
 
 ## Nested If
 Menentukan kelulusan suatu mata pelajaran dengan memasukan nilai absensi dan nilai mata pelajaran.
+<img width="326" alt="image" src="https://github.com/amizulfa/AmidaZulfaLaila_JS1/assets/100895165/4217c1b0-66fd-4931-9dd1-97b30b68f110">
 
 ## Switch Case
 Kalkulator Sederhana menggunakan Switch Case
