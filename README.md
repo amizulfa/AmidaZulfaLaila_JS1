@@ -1,6 +1,6 @@
 # AmidaZulfaLaila_JS1
 #### Amida Zulfa Laila
-#### Web_C_Morn
+#### Web_C_Morning
 
 ## Keluaran dari program :
 
